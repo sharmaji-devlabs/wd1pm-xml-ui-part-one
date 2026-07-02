@@ -14,15 +14,26 @@
         <activity
             android:name=".activity_creation.first_activity.FirstScreenActivity"
             android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".activity_creation.second_activity.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
         </activity>
-
         <activity
-            android:name=".activity_creation.second_activity.MainActivity"
+            android:name=".views.TextViewExample"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -31,7 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

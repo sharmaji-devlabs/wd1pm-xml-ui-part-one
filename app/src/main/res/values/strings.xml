@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">XML UI PART ONE</string>
+    <string name="first_title">First UI Screen\nXML UI Part One</string>
+    <string name="hello_world">Hello world</string>
 </resources>
