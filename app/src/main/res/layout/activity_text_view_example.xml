@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".views.TextViewExample">
+    tools:context=".views.text_view_example.TextViewExample">
 
     <TextView
         android:layout_width="wrap_content"

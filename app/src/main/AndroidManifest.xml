@@ -26,6 +26,30 @@
             android:name=".activity_creation.second_activity.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".views.text_view_example.TextViewExample"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".view_groups.LinearLayoutExample"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -33,7 +57,7 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".views.TextViewExample"
+            android:name=".views.edit_text_view.EditTextViewExample"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
