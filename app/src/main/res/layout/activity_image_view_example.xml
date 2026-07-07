@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".views.image_view_example.ImageViewExample">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Nature Image"
+        android:src="@drawable/img"
+        android:scaleType="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img"
+        android:contentDescription="Nature Image"
+        />
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:src="@drawable/img_1"-->
+<!--        android:contentDescription="Circle Image"-->
+<!--        />-->
+
+</LinearLayout>
