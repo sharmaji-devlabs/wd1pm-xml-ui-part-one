@@ -41,8 +41,8 @@ class ButtonViewExample : AppCompatActivity() {
 //    }
 }
 
-//class Click : View.OnClickListener{
-//    override fun onClick(v: View?) {
-//
-//    }
-//}
+class Click : View.OnClickListener{
+    override fun onClick(v: View?) {
+
+    }
+}

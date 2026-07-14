@@ -47,17 +47,9 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".view_groups.LinearLayoutExample"
+            android:name=".view_groups.linear_layout.LinearLayoutExample"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".views.edit_text_view.EditTextViewExample"
             android:exported="false"
@@ -65,32 +57,29 @@
         <activity
             android:name=".views.image_view_example.ImageViewExample"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
-
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".views.image_view_example.ImageView2"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".views.button_view_example.ButtonViewExample"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+            android:name=".view_groups.responsive_container.LayoutWeightInLinearLayout"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".event_listeners.EventListenerExample"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize" >
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".view_groups.responsive_container.LayoutWeightInLinearLayout"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-
         </activity>
     </application>
 
