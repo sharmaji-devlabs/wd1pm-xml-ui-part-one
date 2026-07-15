@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".event_listeners.EventListenerExample">
+    tools:context=".event_listeners.onclick_byinherit_interface.EventListenerExample">
 
     <LinearLayout
         android:layout_width="match_parent"

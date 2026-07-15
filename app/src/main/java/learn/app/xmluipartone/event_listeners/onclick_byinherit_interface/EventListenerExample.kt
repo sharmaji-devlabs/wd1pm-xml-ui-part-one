@@ -1,4 +1,4 @@
-package learn.app.xmluipartone.event_listeners
+package learn.app.xmluipartone.event_listeners.onclick_byinherit_interface
 
 import android.os.Bundle
 import android.view.View
@@ -32,7 +32,7 @@ class EventListenerExample : AppCompatActivity(), View.OnClickListener {
         outputText = findViewById(R.id.output_txt)
         btnClick  = findViewById(R.id.btn_click)
 
-        btnClick.setOnClickListener(this@EventListenerExample) // event handling
+               btnClick.setOnClickListener(this@EventListenerExample) // event handling
 
     }
 
