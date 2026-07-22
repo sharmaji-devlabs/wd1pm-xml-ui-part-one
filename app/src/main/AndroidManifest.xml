@@ -70,11 +70,13 @@
             android:name=".event_listeners.onclick_by_anonymous_object.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".view_groups.responsive_container.LayoutWeightInLinearLayout"
@@ -83,12 +85,17 @@
         <activity
             android:name=".event_listeners.onclick_byinherit_interface.EventListenerExample"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
-
-
-
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".event_listeners.onclicklisteneter_on_anotherview.OnClickEventOnAnotherView"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".views.toast_view.AllToastViewExamples"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".views.radioview_and_radiogroup.RadioViewAndRadioGroup"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
