@@ -93,9 +93,13 @@
         <activity
             android:name=".views.toast_view.AllToastViewExamples"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".views.radioview_and_radiogroup.RadioViewAndRadioGroup"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".views.checkbox_view_example.CheckBoxViewExamples"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
