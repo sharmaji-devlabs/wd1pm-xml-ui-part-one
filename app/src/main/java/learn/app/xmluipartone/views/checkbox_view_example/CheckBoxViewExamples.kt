@@ -13,11 +13,17 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.checkbox.MaterialCheckBox
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.joinAll
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import learn.app.xmluipartone.R
 import kotlin.concurrent.thread
 import kotlin.concurrent.timer
 import kotlin.coroutines.coroutineContext
+import kotlin.time.Duration.Companion.milliseconds
 
 class CheckBoxViewExamples : AppCompatActivity() {
     private lateinit var chkWeekdays : CheckBox
@@ -58,13 +64,26 @@ class CheckBoxViewExamples : AppCompatActivity() {
 
         btnSignUp.setOnClickListener {
             if (!chkTermsCondition.isChecked){
-                toast("You've must check terms & conditions").show()
+//                toast("You've must check terms & conditions").show()
+                CoroutineScope(GlobalScope.coroutineContext).launch {
+
+                    warningFunction()
+                }
                 return@setOnClickListener
             }
 
             toast("Signed Up").show()
         }
     }
+
+    private suspend fun warningFunction(){
+        withContext(Dispatchers.Main, {
+            txtError.visibility = View.VISIBLE
+            delay(3000L)
+            txtError.visibility = View.GONE
+        })
+    }
+
 
     private fun toast(message : String) = Toast.makeText(this@CheckBoxViewExamples, message, Toast.LENGTH_SHORT)
 }
