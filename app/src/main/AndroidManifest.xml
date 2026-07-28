@@ -100,15 +100,36 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".views.checkbox_view_example.CheckBoxViewExamples"
-            android:exported="true"
+            android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".views.alert_dialog.PreDefineAlertDialogBox"
-            android:exported="true"
-            android:windowSoftInputMode="adjustResize"/>
-
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".views.alert_dialog.CustomAlertDialogView"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".views.dateview_picker.DateViewExample"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".views.dateview_picker.DatePickerDialogWidget"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
