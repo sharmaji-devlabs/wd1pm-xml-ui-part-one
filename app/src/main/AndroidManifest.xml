@@ -122,6 +122,34 @@
             android:name=".views.dateview_picker.DateViewExample"
             android:exported="false"
             android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".views.dateview_picker.DatePickerDialogWidget"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".view_groups.relative_layout.FirstRelativeLayout"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".view_groups.relative_layout.RelativeLayoutViewToViewRelation"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -129,7 +157,7 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".views.dateview_picker.DatePickerDialogWidget"
+            android:name=".view_groups.relative_layout.example_view.UserProfileUsingRelative"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
