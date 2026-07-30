@@ -2,4 +2,6 @@
 <resources>
     <color name="ligth_blue">#5A88E4</color>
     <color name="yellow">#FFC107</color>
+    <color name="light_orange">#FFDECF</color>
+    <color name="orange">#E95322</color>
 </resources>

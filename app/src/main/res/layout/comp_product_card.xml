@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/snacks_1"
+        android:scaleType="fitXY"
+        android:id="@+id/product_img"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maxican Appetizer"
+            android:textStyle="bold"
+            android:textColor="@color/txt_brown"
+            android:textSize="18sp"
+            android:id="@+id/product_title"
+            android:layout_alignParentStart="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_price"
+            android:text="$15.00"
+            android:textColor="@color/orange"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_description"
+            android:text="Marinated in a rich blend of herbs and spices, then grilled to perfection, served with a side of zesty dipping sauce."
+            />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        />
+</LinearLayout>

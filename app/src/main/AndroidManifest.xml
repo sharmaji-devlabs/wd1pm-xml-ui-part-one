@@ -150,14 +150,22 @@
             android:name=".view_groups.relative_layout.RelativeLayoutViewToViewRelation"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".view_groups.relative_layout.example_view.UserProfileUsingRelative"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+        <activity
+            android:name=".reusable_components.ReUseCompOne"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
