@@ -3,4 +3,16 @@
     <string name="first_title">First UI Screen\nXML UI Part One</string>
     <string name="hello_world">Hello world</string>
     <string name="alert_title">Alert Dialog Title</string>
+
+    <string-array name="courses">
+        <item>Select Course</item>
+        <item>Android Xml Development</item>
+        <item>Android JetPack Compose</item>
+        <item>Flutter App Development</item>
+        <item>Full Stack Java Development</item>
+        <item>Full Stack MERN Development</item>
+        <item>Full Stack MEAN Development</item>
+        <item>Full Stack PERN Development</item>
+        <item>Full Stack Dot Net Development</item>
+    </string-array>
 </resources>

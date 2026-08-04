@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".views.spinner_view.SpinnerViewExample">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingHorizontal="30dp"
+        >
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:id="@+id/select_course"
+            android:background="@drawable/shape_custom_dialog"
+            android:entries="@array/courses"
+            android:spinnerMode="dropdown"
+            android:popupBackground="@drawable/shape_orange_button"
+            />
+    </LinearLayout>
+</LinearLayout>

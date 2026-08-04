@@ -27,20 +27,20 @@ class ReUseCompOne : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        btnCrepes = findViewById(R.id.btn_crepes)
-        btnSpringRolls = findViewById(R.id.btn_spring_rolls)
-
-        btnCrepes.text = "Crepes"
-        btnSpringRolls.text = "Spring Rolls"
-
-        porkSkewer = findViewById(R.id.pork_skewer)
-
-        val productTitle : TextView = porkSkewer.findViewById(R.id.product_title)
-
-        productTitle.text = "Pork Skewer"
-        val productImage = porkSkewer.findViewById<ImageView>(R.id.product_img)
-
-        productImage.setImageResource(R.drawable.snacks_2)
+//        btnCrepes = findViewById(R.id.btn_crepes)
+//        btnSpringRolls = findViewById(R.id.btn_spring_rolls)
+//
+//        btnCrepes.text = "Crepes"
+//        btnSpringRolls.text = "Spring Rolls"
+//
+//        porkSkewer = findViewById(R.id.pork_skewer)
+//
+//        val productTitle : TextView = porkSkewer.findViewById(R.id.product_title)
+//
+//        productTitle.text = "Pork Skewer"
+//        val productImage = porkSkewer.findViewById<ImageView>(R.id.product_img)
+//
+//        productImage.setImageResource(R.drawable.snacks_2)
 
     }
 }
