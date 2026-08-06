@@ -165,14 +165,35 @@
         <activity
             android:name=".reusable_components.ReUseCompOne"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".view_groups.horizontal_scroll_view_example.HorizontalScrollViewExample"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".views.spinner_view.SpinnerViewExample"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".adapter.BaseAdapterExample"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".adapter.contact_using_array_adapter.ContactScreenUsingArrayAdapter"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
